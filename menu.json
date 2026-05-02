@@ -1,0 +1,372 @@
+{
+  "categories": [
+    {
+      "id": "featured",
+      "name": "Hugo\u2019s Icons",
+      "description": "The things people come back for.",
+      "items": [
+        {
+          "name": "Traditional Hamburger",
+          "price": "$12.00",
+          "desc": "One-third pound charbroiled black angus beef with lettuce, tomato, pickle, onion, mayo & mustard.",
+          "tags": [
+            "burger",
+            "classic"
+          ]
+        },
+        {
+          "name": "Homemade French Fries",
+          "price": "$6.75",
+          "desc": "The famous Hugo\u2019s fries.",
+          "tags": [
+            "side",
+            "classic"
+          ]
+        },
+        {
+          "name": "Grasshopper Crepes",
+          "price": "$9.25",
+          "desc": "Crepes filled with mint ice cream and covered with homemade hot fudge sauce.",
+          "tags": [
+            "dessert",
+            "classic"
+          ]
+        },
+        {
+          "name": "Spinach & Artichoke Dip",
+          "price": "$13.25",
+          "desc": "A basement favorite to share.",
+          "tags": [
+            "appetizer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Start underground.",
+      "items": [
+        {
+          "name": "Nachos",
+          "price": "$9.75",
+          "desc": "Cheddar cheese & jalape\u00f1os.",
+          "tags": [
+            "starter"
+          ]
+        },
+        {
+          "name": "Macho Nachos",
+          "price": "$14.00",
+          "desc": "Cheddar cheese, jalape\u00f1os, refried beans, salsa, sour cream, guacamole & diced tomatoes.",
+          "tags": [
+            "starter",
+            "shareable"
+          ]
+        },
+        {
+          "name": "Veggie Nachos",
+          "price": "$11.00",
+          "desc": "Cheddar cheese, jalape\u00f1os, tomatoes, green peppers & onions.",
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Chips & Guacamole",
+          "price": "$9.50",
+          "desc": "",
+          "tags": [
+            "starter"
+          ]
+        },
+        {
+          "name": "Chips & Salsa",
+          "price": "$7.25",
+          "desc": "",
+          "tags": [
+            "starter"
+          ]
+        },
+        {
+          "name": "Chicken Fingers",
+          "price": "$10.50",
+          "desc": "With sweet & sour.",
+          "tags": [
+            "starter"
+          ]
+        },
+        {
+          "name": "Deep-Fried Potato Skins",
+          "price": "$10.50",
+          "desc": "Five skins with ranch or sour cream, cheddar cheese & crisp bacon.",
+          "tags": [
+            "starter"
+          ]
+        },
+        {
+          "name": "Spinach & Artichoke Dip",
+          "price": "$13.25",
+          "desc": "",
+          "tags": [
+            "shareable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grill",
+      "name": "From the Grill",
+      "description": "Charbroiled and basement-famous.",
+      "items": [
+        {
+          "name": "Grilled Trout with Dill Tartar",
+          "price": "$22.00",
+          "desc": "Served with house salad & homemade french fries.",
+          "tags": [
+            "entree"
+          ]
+        },
+        {
+          "name": "Marinated Grilled Tuna",
+          "price": "$24.00",
+          "desc": "Served with herbed rice & house salad.",
+          "tags": [
+            "entree"
+          ]
+        },
+        {
+          "name": "Marinated Chicken Breast",
+          "price": "$16.00",
+          "desc": "Grilled, served with rice & mandarin orange/red onion salad.",
+          "tags": [
+            "entree"
+          ]
+        },
+        {
+          "name": "Chopped Sirloin",
+          "price": "$16.00",
+          "desc": "Charbroiled, served with homemade french fries & house salad.",
+          "tags": [
+            "entree"
+          ]
+        },
+        {
+          "name": "8 oz Filet",
+          "price": "$38.50",
+          "desc": "Bacon-wrapped, charbroiled, served with homemade french fries and house salad.",
+          "tags": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "description": "100% black angus beef, charbroiled.",
+      "items": [
+        {
+          "name": "Traditional Hamburger",
+          "price": "$12.00",
+          "desc": "Lettuce, tomato, pickle, onion, mayonnaise & mustard.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Cheeseburger",
+          "price": "$12.75",
+          "desc": "Lettuce, tomato, pickle, onion, mayonnaise & mustard.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Bleu Moon Burger",
+          "price": "$13.50",
+          "desc": "Melted bleu cheese, lettuce, red onion & mayonnaise.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Swiss Cheese & Bacon Burger",
+          "price": "$13.50",
+          "desc": "Lettuce, red onion & mayonnaise.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Chili Burger",
+          "price": "$13.50",
+          "desc": "Cheddar cheese & mayonnaise.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Guacamole Burger",
+          "price": "$13.50",
+          "desc": "Guacamole, lettuce & mayonnaise.",
+          "tags": [
+            "burger"
+          ]
+        },
+        {
+          "name": "Nature\u2019s Burger",
+          "price": "$12.00",
+          "desc": "Multigrain patty with lettuce, tomato, pickle, onion, mayonnaise & mustard on kaiser roll.",
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Jalape\u00f1o Cheeseburger",
+          "price": "$13.50",
+          "desc": "Pepperjack cheese, jalape\u00f1os, lettuce, tomato, onion, mayo & mustard.",
+          "tags": [
+            "burger",
+            "spicy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "description": "Served with chips & pickle.",
+      "items": [
+        {
+          "name": "Reuben",
+          "price": "$13.25",
+          "desc": "Corned beef with swiss, sauerkraut & 1000 island on rye.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Tuna Melt",
+          "price": "$10.75",
+          "desc": "Tuna salad with mayo, lettuce, tomato & swiss on rye.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Hot Pastrami & Cheese",
+          "price": "$10.75",
+          "desc": "With mustard & swiss cheese on kaiser roll.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Bacon, Lettuce & Tomato",
+          "price": "$10.25",
+          "desc": "With mayo on whole wheat.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Veggie Reuben",
+          "price": "$11.75",
+          "desc": "Mustard, mushrooms, swiss, tomatoes, sprouts, sauerkraut & onion on wheat.",
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Sirloin Steak Sandwich",
+          "price": "$13.50",
+          "desc": "Grilled onions & peppers, pepper jack cheese & lime cilantro a\u00efoli.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Derek\u2019s Special",
+          "price": "$13.50",
+          "desc": "Marinated chicken breast with swiss, bacon, tomato, lettuce & honey mustard on kaiser roll.",
+          "tags": [
+            "sandwich"
+          ]
+        },
+        {
+          "name": "Fried Catfish Po\u2019 Boy",
+          "price": "$13.50",
+          "desc": "With dill tartar, onion & lettuce on a white hoagie.",
+          "tags": [
+            "sandwich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "A sweet finish downstairs.",
+      "items": [
+        {
+          "name": "Vanilla Ice Cream",
+          "price": "$5.75",
+          "desc": "Haagen-Dazs.",
+          "tags": [
+            "dessert"
+          ]
+        },
+        {
+          "name": "Chocolate or Lemon Mousse",
+          "price": "$5.75",
+          "desc": "",
+          "tags": [
+            "dessert"
+          ]
+        },
+        {
+          "name": "Grasshopper Crepes",
+          "price": "$9.25",
+          "desc": "Mint ice cream crepes with homemade hot fudge sauce.",
+          "tags": [
+            "dessert",
+            "classic"
+          ]
+        },
+        {
+          "name": "Strawberry Crepes",
+          "price": "$9.25",
+          "desc": "",
+          "tags": [
+            "dessert"
+          ]
+        },
+        {
+          "name": "Hot Peach & Amaretto Crepes",
+          "price": "$9.25",
+          "desc": "With vanilla ice cream.",
+          "tags": [
+            "dessert"
+          ]
+        },
+        {
+          "name": "Apple Pie",
+          "price": "$6.25",
+          "desc": "",
+          "tags": [
+            "dessert"
+          ]
+        },
+        {
+          "name": "Pecan Pie",
+          "price": "$6.25",
+          "desc": "",
+          "tags": [
+            "dessert"
+          ]
+        }
+      ]
+    }
+  ]
+}

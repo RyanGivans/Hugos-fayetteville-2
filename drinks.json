@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "id": "specials",
+      "name": "Beer Specials",
+      "items": [
+        {"name":"Summerfest", "style":"Pilsner · German", "maker":"Sierra Nevada Brewing Co.", "origin":"Chico, CA", "notes":"Tap 7 rotating seasonal craft beer offering."},
+        {"name":"Hoppy Wheat", "style":"Wheat Beer · American Pale Wheat", "maker":"Fossil Cove Brewing Co.", "origin":"Fayetteville, AR", "notes":"Tap 8 feature from a local brewery."}
+      ]
+    },
+    {
+      "id": "local-draught",
+      "name": "Local Draught",
+      "items": [
+        {"name":"Hazy & Hoppy", "style":"IPA · American", "maker":"Hawk Moth Brewery & Beer Parlor", "origin":"Bentonville, AR", "notes":"Rotating Citra-focused IPA series."},
+        {"name":"IPA", "style":"IPA · American", "maker":"Ozark Beer Company", "origin":"Rogers, AR", "notes":"Citrus and tropical fruit with a clean bitterness."},
+        {"name":"American Pale Ale", "style":"Pale Ale · American", "maker":"Ozark Beer Company", "origin":"Rogers, AR", "notes":"Light-bodied session ale brewed with rye."},
+        {"name":"La Brea Brown", "style":"Brown Ale · Belgian", "maker":"Fossil Cove Brewing Co.", "origin":"Fayetteville, AR", "notes":"Rich maltiness with chocolate, toast, and spice."}
+      ]
+    },
+    {
+      "id": "local-cans",
+      "name": "Local Cans",
+      "items": [
+        {"name":"Sun Kissed", "style":"IPA · Imperial", "maker":"Gotahold Brewing", "origin":"Eureka Springs, AR", "notes":"Bold citrusy hop character."},
+        {"name":"Monstera", "style":"Pale Ale · New England", "maker":"Greenhouse Aleworks", "origin":"Bentonville, AR", "notes":"Bright and juicy hazy pale ale."},
+        {"name":"Czech Pilsner", "style":"Pilsner · Czech", "maker":"Natural State Beer Company", "origin":"Rogers, AR", "notes":"Balanced and refreshing with strong drinkability."},
+        {"name":"Hefeweizen", "style":"Wheat Beer · Hefeweizen", "maker":"Natural State Beer Company", "origin":"Rogers, AR", "notes":"Traditional German wheat beer with banana and clove character."},
+        {"name":"Hills And Hollers", "style":"Lager · Amber", "maker":"Bentonville Brewing Co.", "origin":"Bentonville, AR", "notes":"Amber lager with regional character."},
+        {"name":"Ozark Lager", "style":"Lager · Pale", "maker":"Ozark Beer Company", "origin":"Rogers, AR", "notes":"Local lager brewed in Arkansas."},
+        {"name":"Session IPA", "style":"IPA · Session", "maker":"Fossil Cove Brewing Co.", "origin":"Fayetteville, AR", "notes":"Crisp, refreshing, light malt backbone."},
+        {"name":"Birch Avenue Blonde", "style":"Blonde", "maker":"Fossil Cove Brewing Co.", "origin":"Fayetteville, AR", "notes":"Light biscuit and caramel malt notes."},
+        {"name":"Philosopher King", "style":"IPA · American", "maker":"New Province Brewing Co.", "origin":"Rogers, AR", "notes":"Mango, tangerine, and pineapple hop character."},
+        {"name":"Cream Stout", "style":"Stout · Milk", "maker":"Ozark Beer Company", "origin":"Rogers, AR", "notes":"Dark chocolate, coffee, dried fruit, and roasty finish."}
+      ]
+    },
+    {
+      "id": "on-tap",
+      "name": "On Tap",
+      "items": [
+        {"name":"Traditional Lager", "style":"Lager · American Amber", "maker":"Yuengling Brewery", "origin":"Pottsville, PA", "notes":"Amber color and medium-bodied flavor."},
+        {"name":"Guinness Draught", "style":"Stout · Irish Dry", "maker":"Guinness", "origin":"Dublin, Ireland", "notes":"Smooth, dark, and classic."},
+        {"name":"Miller Lite", "style":"Lager · American Light", "maker":"Miller Brewing Company", "origin":"Milwaukee, WI", "notes":"Clean and simple light beer."}
+      ]
+    },
+    {
+      "id": "bottles",
+      "name": "Imported & Domestics",
+      "items": [
+        {"name":"Celebrator", "style":"Bock · Doppelbock", "maker":"Ayinger Privatbrauerei", "origin":"Aying, Bayern", "notes":"Hearty malt-driven classic."},
+        {"name":"Modelo Especial", "style":"Lager · Mexican", "maker":"Grupo Modelo", "origin":"Mexico", "notes":"Crisp full-flavored pilsner."},
+        {"name":"Chimay Grande Réserve", "style":"Belgian Strong Dark Ale", "maker":"Bières de Chimay", "origin":"Belgium", "notes":"Dark Trappist beer with complex flavor."},
+        {"name":"Stella Artois", "style":"Lager · Pale", "maker":"Stella Artois", "origin":"Belgium", "notes":"Classic pale lager."},
+        {"name":"Bud Light", "style":"Lager · American Light", "maker":"Anheuser-Busch", "origin":"St. Louis, MO", "notes":"Domestic light lager."},
+        {"name":"Coors Light", "style":"Lager · American Light", "maker":"Coors Brewing Company", "origin":"Golden, CO", "notes":"Domestic light lager."},
+        {"name":"Dead Guy Ale", "style":"Bock · Helles", "maker":"Rogue Ales", "origin":"Newport, OR", "notes":"Bold, malty, and complex."},
+        {"name":"Purple Haze", "style":"Lager · Fruited", "maker":"Abita Brewing Company", "origin":"Abita Springs, LA", "notes":"Raspberry-infused lager."}
+      ]
+    },
+    {
+      "id": "cider-na",
+      "name": "Ciders & Non-Alcoholic",
+      "items": [
+        {"name":"Plum-Cherry Hard Cider", "style":"Cider · Other Fruit", "maker":"Bentonville Brewing Co.", "origin":"Bentonville, AR", "notes":"Fruit-forward cider option."},
+        {"name":"Blood Orange Cider", "style":"Cider · Other Fruit", "maker":"Austin Eastciders", "origin":"Austin, TX", "notes":"Zesty blood orange cider."},
+        {"name":"Woodchuck Granny Smith Hard Cider", "style":"Cider · Traditional", "maker":"Woodchuck Cidery", "origin":"Middlebury, VT", "notes":"Tart and refreshing apple cider."},
+        {"name":"Run Wild IPA", "style":"Non-Alcoholic · IPA", "maker":"Athletic Brewing Company", "origin":"Milford, CT", "notes":"Sessionable non-alcoholic IPA."},
+        {"name":"Heineken 0.0", "style":"Non-Alcoholic · Lager", "maker":"Heineken", "origin":"Netherlands", "notes":"Non-alcoholic lager."}
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "items": [
+        {"name":"Cabernet Sauvignon", "style":"House Wine", "maker":"Robert Mondavi Woodbridge", "origin":"", "notes":"Available by glass and carafe."},
+        {"name":"Sauvignon Blanc", "style":"House Wine", "maker":"Robert Mondavi Woodbridge", "origin":"", "notes":"Available by glass and carafe."},
+        {"name":"Cabernet Sauvignon", "style":"Red Wine", "maker":"Sebastiani North Coast", "origin":"California", "notes":"Red wine selection."},
+        {"name":"Malbec", "style":"Red Wine", "maker":"Tercos", "origin":"Argentina", "notes":"Red wine selection."},
+        {"name":"Merlot", "style":"Red Wine", "maker":"Chloe", "origin":"California", "notes":"Red wine selection."},
+        {"name":"Pinot Noir", "style":"Red Wine", "maker":"Diora", "origin":"California", "notes":"Red wine selection."},
+        {"name":"Zinfandel", "style":"Red Wine", "maker":"Seghesio", "origin":"Sonoma", "notes":"Red wine selection."},
+        {"name":"Gerard Bertrand Cote Des Roses Rose", "style":"White / Rosé Wine", "maker":"Gerard Bertrand", "origin":"France", "notes":"Wine selection."},
+        {"name":"Chardonnay", "style":"White Wine", "maker":"Kendall Jackson", "origin":"California", "notes":"White wine selection."},
+        {"name":"Pinot Grigio", "style":"White Wine", "maker":"Coppola Rosso & Bianco", "origin":"California", "notes":"White wine selection."},
+        {"name":"Brut", "style":"Sparkling Wine", "maker":"Roederer Estate", "origin":"California", "notes":"Sparkling wine selection."},
+        {"name":"Zinfandel Port", "style":"Port Wine", "maker":"Terra d'Oro", "origin":"California", "notes":"Port wine selection."}
+      ]
+    }
+  ]
+}

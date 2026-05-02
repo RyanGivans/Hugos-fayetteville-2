@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hugo’s Fayetteville | Basement Classic Since 1977</title>
+  <meta name="description" content="Hugo’s Fayetteville — basement burgers, homemade fries, beer cheese soup, local beer, wine, whiskey, and Fayetteville history since 1977." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-lights" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Hugo’s home">
+      <img src="hugos-neon-logo.png" alt="Hugo's logo">
+    </a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="#story">Story</a>
+      <a href="#menu">Food</a>
+      <a href="#drinks">Drinks</a>
+      <a href="#press">Press</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-cta" href="tel:14795217585">Call</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('https://hugosfayetteville.com/wp-content/uploads/2020/01/hugos-outside-1.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <div class="neon-sign" aria-label="Hugo's since 1977 neon logo">
+          <img src="hugos-neon-logo.png" alt="Hugo's since 1977">
+        </div>
+        <p class="eyebrow">Fayetteville’s underground classic · since 1977</p>
+        <h1>Down the stairs. Into the legend.</h1>
+        <p class="hero-copy">Burgers, homemade fries, beer cheese soup, grasshopper crepes, local beer, wine, and a serious whiskey wall in the basement off the Historic Fayetteville Square.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">Explore the menu</a>
+          <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/dir//25+1%2F2+N+Block+Ave,+Fayetteville,+AR+72701/">Get directions</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal">
+        <span class="status-dot"></span>
+        <p id="openStatus">Checking today’s hours…</p>
+        <strong>Mon–Sat · 11:00 AM–10:00 PM</strong>
+        <small>Closed Sundays · 25 1/2 N Block Ave</small>
+      </aside>
+    </section>
+
+    <section class="section intro-grid" id="story">
+      <div class="story-copy reveal">
+        <p class="eyebrow">The basement everyone knows</p>
+        <h2>A Fayetteville favorite with the feel of a secret.</h2>
+        <p>Hugo’s has been in business since 1977, located at 25 1/2 N Block Ave off the Historic Fayetteville Square. The experience is classic, a little hidden, and built around the menu items people still talk about years later.</p>
+        <div class="stats">
+          <div><b>1977</b><span>Opened</span></div>
+          <div><b>25 1/2</b><span>N Block Ave</span></div>
+          <div><b>Mon–Sat</b><span>11 AM–10 PM</span></div>
+        </div>
+      </div>
+      <div class="photo-stack reveal">
+        <img class="photo main" src="https://hugosfayetteville.com/wp-content/uploads/2020/01/hamburger-1.jpg" alt="Hugo's burger">
+        <img class="photo small" src="https://hugosfayetteville.com/wp-content/uploads/2020/01/hugos-logo-3.jpg" alt="Hugo's sign logo">
+      </div>
+    </section>
+
+    <section class="review-strip" id="reviews">
+      <div>
+        <strong>★★★★★</strong>
+        <span>Google review highlights</span>
+      </div>
+      <p>“Best burger in Fayetteville.”</p>
+      <p>“A must-stop whenever we are in town.”</p>
+      <a target="_blank" rel="noopener" href="https://www.google.com/search?q=hugo%27s+fayetteville+reviews">Read Google Reviews</a>
+    </section>
+
+    <section class="marquee" aria-label="Hugo's highlights">
+      <div class="marquee-track">
+        <span>Basement burgers</span><span>Homemade fries</span><span>Beer cheese soup</span><span>Local draughts</span><span>Whiskey · Scotch · Bourbon</span><span>Grasshopper crepes</span>
+        <span>Basement burgers</span><span>Homemade fries</span><span>Beer cheese soup</span><span>Local draughts</span><span>Whiskey · Scotch · Bourbon</span><span>Grasshopper crepes</span>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Interactive food menu</p>
+        <h2>Find your Hugo’s order.</h2>
+        <p>Search or filter the menu without losing the old-school feel. Prices and descriptions are loaded from <code>menu.json</code> so they can be updated without touching the layout.</p>
+      </div>
+      <div class="menu-tools reveal">
+        <input id="menuSearch" type="search" placeholder="Search burgers, fries, crepes, soup…" />
+        <div class="category-buttons" id="categoryButtons"></div>
+      </div>
+      <div class="menu-grid reveal" id="menuGrid"></div>
+      <p class="menu-note reveal">Menu details can change. Call Hugo’s for current availability.</p>
+    </section>
+
+    <section class="feature-band">
+      <div class="feature-text reveal">
+        <p class="eyebrow">The bar downstairs</p>
+        <h2>Local taps, classic bottles, wine, and whiskey.</h2>
+        <p>Hugo’s keeps a rotating beer list through Untappd. This section gives the site a polished drinks preview while still sending guests to the live menu for the most accurate current availability.</p>
+      </div>
+      <div class="drink-card reveal">
+        <span>Live drink menu</span>
+        <b>Powered by Untappd</b>
+        <p>No alcohol prices shown here. Guests can view current beer, wine, cider, and non-alcoholic options through Hugo’s live Untappd menu.</p>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://untappd.com/v/hugos-restaurant/115680?ng_menu_id=1437c92f-cca8-4d99-87f3-40e27d6f9af1">Open live drinks</a>
+      </div>
+    </section>
+
+    <section class="section drinks-section" id="drinks">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Drinks preview</p>
+        <h2>Built to match the real list.</h2>
+        <p>This is a clean preview based on the screenshots: local draughts, local cans, on tap, imported, domestics, ciders, non-alcoholic, and wine. No alcohol prices are displayed.</p>
+      </div>
+      <div class="drink-tools reveal">
+        <input id="drinkSearch" type="search" placeholder="Search IPA, lager, wine, cider…" />
+        <div class="category-buttons" id="drinkButtons"></div>
+      </div>
+      <div class="drinks-grid reveal" id="drinksGrid"></div>
+    </section>
+
+    <section class="section press-section" id="press">
+      <div class="section-heading reveal">
+        <p class="eyebrow">In the news</p>
+        <h2>Not just local-famous.</h2>
+      </div>
+      <div class="press-grid reveal">
+        <a class="press-card" target="_blank" rel="noopener" href="https://www.bonappetit.com/story/hugos-burger-joint-fayetteville">
+          <div class="press-logo text-logo">bon appétit</div>
+          <h3>America’s Favorite Neighborhood Restaurants</h3>
+          <p>“Someone either brought you to Hugo’s, or you’d been coming there your whole life.”</p>
+        </a>
+        <a class="press-card" target="_blank" rel="noopener" href="https://www.architecturaldigest.com/story/northwest-arkansas-is-the-true-star-of-true-detective-season-3">
+          <div class="press-logo ad-logo">AD</div>
+          <h3>Northwest Arkansas Is the True Star</h3>
+          <p>A long-standing Fayetteville burger-and-beer staple with a funky vibe since 1977.</p>
+        </a>
+        <a class="press-card" target="_blank" rel="noopener" href="https://leisurlist.com/feed/article/best-burgers-in-northwest-arkansas/details">
+          <div class="press-logo leisure-logo">♡ leisurlist</div>
+          <h3>Best Burgers in Northwest Arkansas</h3>
+          <p>“A burger list wouldn’t be complete without Hugo’s.”</p>
+        </a>
+        <a class="press-card" target="_blank" rel="noopener" href="https://arktimes.com/news/cover-stories/2019/02/01/best-restaurants-in-arkansas-2019">
+          <div class="press-logo ar-logo">ARKANSAS TIMES</div>
+          <h3>Best Restaurants in Arkansas</h3>
+          <p>Recognized by readers among the best restaurants in Arkansas.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section instagram-section" id="instagram">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Social proof</p>
+        <h2>From the basement feed.</h2>
+        <p>This is set up as an Instagram-ready section. For GitHub Pages, the cleanest option is to connect a third-party Instagram widget later, or keep this as a visual grid that links directly to their Instagram.</p>
+      </div>
+      <div class="insta-grid reveal">
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/hugosfayetteville/"><img src="https://hugosfayetteville.com/wp-content/uploads/2020/01/hamburger-1.jpg" alt="Hugo's burger"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/hugosfayetteville/"><img src="https://hugosfayetteville.com/wp-content/uploads/2020/01/hugos-outside-1.jpg" alt="Hugo's exterior"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/hugosfayetteville/"><img src="https://hugosfayetteville.com/wp-content/uploads/2020/01/hugos-logo-3.jpg" alt="Hugo's logo"></a>
+      </div>
+    </section>
+
+    <section class="section visit" id="visit">
+      <div class="visit-card reveal">
+        <p class="eyebrow">Visit the basement</p>
+        <h2>25 1/2 N Block Ave</h2>
+        <p>Located off the Historic Fayetteville Square. Wheelchair-accessible entry through the back door is available upon request.</p>
+        <p><strong>Phone:</strong> <a href="tel:14795217585">(479) 521-7585</a></p>
+        <p><strong>Hours:</strong> Monday–Saturday, 11:00 a.m.–10:00 p.m. Closed Sundays.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:14795217585">Call Hugo’s</a>
+          <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/dir//25+1%2F2+N+Block+Ave,+Fayetteville,+AR+72701/">Directions</a>
+        </div>
+      </div>
+      <div class="map-panel reveal">
+        <iframe title="Map to Hugo's Fayetteville" loading="lazy" src="https://www.google.com/maps?q=25%201%2F2%20N%20Block%20Ave%2C%20Fayetteville%2C%20AR&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Hugo’s Fayetteville</strong>
+      <p>Basement burgers, beer, wine, whiskey, and Fayetteville history since 1977.</p>
+    </div>
+    <div class="socials">
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/hugosbasement">Facebook</a>
+      <a target="_blank" rel="noopener" href="https://www.instagram.com/hugosfayetteville/">Instagram</a>
+      <a target="_blank" rel="noopener" href="https://www.yelp.com/biz/hugos-fayetteville">Yelp</a>
+      <a target="_blank" rel="noopener" href="https://untappd.com/v/hugos-restaurant/115680?ng_menu_id=1437c92f-cca8-4d99-87f3-40e27d6f9af1">Untappd</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
